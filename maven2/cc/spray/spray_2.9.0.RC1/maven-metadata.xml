@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cc.spray</groupId>
+  <artifactId>spray_2.9.0.RC1</artifactId>
+  <version>0.6.1-SNAPSHOT</version>
+  <versioning>
+    <latest>0.6.1-SNAPSHOT</latest>
+    <versions>
+      <version>0.6.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110505150317</lastUpdated>
+  </versioning>
+</metadata>
