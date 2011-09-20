@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cc.spray</groupId>
+    <artifactId>spray-client_2.9.1</artifactId>
+    <packaging>jar</packaging>
+    <description>spray-client</description>
+    <version>0.8-SBT11-SNAPSHOT</version>
+    <name>spray-client</name>
+    <organization>
+        <name>cc.spray</name>
+    </organization>
+    <url>http://spray.cc/</url>
+    <inceptionYear>2011</inceptionYear>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>sirthias</id>
+            <name>Mathias Doenitz</name>
+            <timezone>+1</timezone>
+            <email>mathias [at] spray.cc</email>
+        </developer>
+    </developers>
+    <scm>
+        <url>http://github.com/spray/</url>
+    </scm>
+    <dependencies>
+        <dependency>
+            <groupId>cc.spray</groupId>
+            <artifactId>spray-http_2.9.1</artifactId>
+            <version>0.8-SBT11-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>se.scalablesolutions.akka</groupId>
+            <artifactId>akka-actor</artifactId>
+            <version>1.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.ning</groupId>
+            <artifactId>async-http-client</artifactId>
+            <version>1.6.4</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.9.1</artifactId>
+            <version>1.6.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>ScalaToolsMaven2Repository</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>AkkaRepository</id>
+            <name>Akka Repository</name>
+            <url>http://akka.io/repository/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>GlassfishRepository</id>
+            <name>Glassfish Repository</name>
+            <url>http://download.java.net/maven/glassfish/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>SprayGithubRepository</id>
+            <name>Spray Github Repository</name>
+            <url>http://spray.github.com/spray/maven/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>ScalaToolsMaven2SnapshotsRepository</id>
+            <name>Scala-Tools Maven2 Snapshots Repository</name>
+            <url>http://scala-tools.org/repo-snapshots/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
