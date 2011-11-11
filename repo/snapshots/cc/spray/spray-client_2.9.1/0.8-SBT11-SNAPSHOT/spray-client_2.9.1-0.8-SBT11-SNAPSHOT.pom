@@ -33,7 +33,7 @@
     <dependencies>
         <dependency>
             <groupId>cc.spray</groupId>
-            <artifactId>spray-http_2.9.1</artifactId>
+            <artifactId>spray-base_2.9.1</artifactId>
             <version>0.8-SBT11-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

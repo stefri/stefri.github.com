@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cc.spray</groupId>
-    <artifactId>spray-server_2.9.1</artifactId>
+    <artifactId>spray-base_2.9.1</artifactId>
     <packaging>jar</packaging>
-    <description>spray-server</description>
+    <description>spray-base</description>
     <version>0.8-SBT11-SNAPSHOT</version>
-    <name>spray-server</name>
+    <name>spray-base</name>
     <organization>
         <name>cc.spray</name>
     </organization>
@@ -32,12 +32,6 @@
     </scm>
     <dependencies>
         <dependency>
-            <groupId>cc.spray</groupId>
-            <artifactId>spray-base_2.9.1</artifactId>
-            <version>0.8-SBT11-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>2.9.1</version>
@@ -50,27 +44,33 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>javax.servlet</artifactId>
-            <version>3.0</version>
-            <scope>provided</scope>
+            <groupId>org.parboiled</groupId>
+            <artifactId>parboiled-core</artifactId>
+            <version>1.0.2</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-continuation</artifactId>
-            <version>7.5.1.v20110908</version>
-            <scope>provided</scope>
+            <groupId>org.parboiled</groupId>
+            <artifactId>parboiled-scala</artifactId>
+            <version>1.0.2</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.atmosphere</groupId>
-            <artifactId>atmosphere-compat-tomcat</artifactId>
-            <version>0.7.1</version>
-            <scope>provided</scope>
+            <groupId>org.jvnet</groupId>
+            <artifactId>mimepull</artifactId>
+            <version>1.6</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>cc.spray.can</groupId>
-            <artifactId>spray-can_2.9.1</artifactId>
-            <version>0.9.0</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>cc.spray.json</groupId>
+            <artifactId>spray-json_2.9.1</artifactId>
+            <version>1.0.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
