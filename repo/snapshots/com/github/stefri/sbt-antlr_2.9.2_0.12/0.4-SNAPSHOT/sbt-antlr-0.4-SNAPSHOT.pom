@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.scala-sbt</groupId>
             <artifactId>sbt</artifactId>
-            <version>0.12.0</version>
+            <version>0.12.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -30,8 +30,7 @@
         <dependency>
             <groupId>org.antlr</groupId>
             <artifactId>antlr</artifactId>
-            <version>3.3</version>
-            <scope>compile</scope>
+            <version>3.5</version>
         </dependency>
     </dependencies>
 </project>
